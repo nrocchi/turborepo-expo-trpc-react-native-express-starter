@@ -13,7 +13,7 @@ export default function App() {
     trpc.createClient({
       // change the ip address to whatever address the Metro server is running on
       // if you're using a Simulator 'localhost' should work fine
-      links: [httpBatchLink({ url: 'http://192.168.1.2:5000/trpc' })],
+      links: [httpBatchLink({ url: 'http://192.168.10.157:5000/trpc' })],
     }),
   );
 
